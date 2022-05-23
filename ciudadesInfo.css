@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#roboto-font {
+    font-family: 'Roboto Slab', serif;
+}
+
+#botonRedireccion {
+    width: 150px;
+    height: 80px;
+    background-color: #ffeeff;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+#botonRedireccion:hover {
+    background-color: bisque;
+}
+
+#botonRedireccion p {
+    text-align: center;
+}
+
+.buttonStyle {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: black;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttonStyle:hover {
+    background-color: #eeeeee;
+}
+
+
+#h1 {
+    text-align:center;
+    color: white;
+}
+
+main {
+    background: sandybrown;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+* {box-sizing:border-box}
+
+footer {
+    background-color: gray;
+    height: 70px;
+    position: relative;
+}
+
+#botonInfo {
+    width: 150px;
+    height: 50px;
+    background-color: #ffeeff;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+
+#botonInfo:hover {
+    background-color: bisque;
+}
+
+#botonInfo p {
+    text-align: center;
+}
+
+#CambiarIdioma {
+    width: 60px;
+    height: 50px;
+    background-color: #ffeeff;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+#CambiarIdioma:hover {
+    background-color: bisque;
+}
+
+#CambiarIdioma p {
+    text-align: center;
+}

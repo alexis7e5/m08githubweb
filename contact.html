@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Página principal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Más sitios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Barcelona.html">Barcelona</a>
+                        <a class="dropdown-item" href="Madrid.html">Madrid</a>
+                        <a class="dropdown-item" href="Sevilla.html">Sevilla</a>
+                        <a class="dropdown-item" href="PalmaMallorca.html">Palma de Mallorca</a>
+                        <a class="dropdown-item" href="Tenerife.html">Tenerife</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main style="max-width: 1920px; min-width: 500px; height: 100vh">
+    <form action="https://formspree.io/alexis.navas.7e2@itb.cat" method="POST">
+        <p class="textStyle">
+            ¿Quieres recibir información en tu correo o decirnos algo? Puedes enviarnos un mensaje o suscribirte a las noticias.
+        </p>
+        <div>
+            <label for="name" class="textStyle">Nombre</label>
+            <div></div>
+            <input type="text" id="name" name="name" style="width: 200px; height: 30px; margin-bottom: 10px;" required>
+        </div>
+        <div>
+            <label for="email" class="textStyle">E-Mail</label>
+            <div></div>
+            <input type="email" id="email" name="email" style="width: 200px; height: 30px; margin-bottom: 10px;" required>
+        </div>
+        <div>
+            <label for="text" class="textStyle">Comentarios (opcional)</label>
+            <div></div>
+            <textarea id="text" name="comment" style="resize: none; width: 300px; height: 150px; margin-bottom: 10px"></textarea>
+        </div>
+        <div>
+            <label for="simple" class="textStyle">Idioma de contacto</label>
+            <div></div>
+            <select id="simple" name="language">
+                <option>Castellano</option>
+                <option>English</option>
+            </select>
+        </div>
+        <div>
+            <input id="subscription" type="checkbox" name="subs confirm" value="confirmacionSusripcion" style=" margin-top: 10px;"/>
+            <label for="subscription" class="textStyle">Quiero suscribirme a las noticias</label>
+        </div>
+        <form>
+            <button type="submit" id="submitButton">Enviar</button>
+        </form>
+    </form>
+</main>
+
+<footer style="padding-top: 8px;">
+    <div style="float: right; color: white; margin-top: 8px; margin-right: 10px; width: 230px; text-align: center;">Página web desarrollada por Jose Marreros y Alexis Navas</div>
+    <nav style="width: 145px; margin-left: 10px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="contact.html">Contáctanos</a>
+    </nav>
+</footer>
+</body>
+</html>

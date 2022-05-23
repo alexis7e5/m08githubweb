@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#roboto-font {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#botonRedireccion {
+    width: 150px;
+    height: 80px;
+    background-color: #ffeeff;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+#botonRedireccion:hover {
+    background-color: bisque;
+}
+
+#botonRedireccion p {
+    text-align: center;
+}
+
+.buttonStyle {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: black;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttonStyle:hover {
+    background-color: #eeeeee;
+}
+
+
+#h1 {
+    text-align: center;
+    color: white;
+}
+
+main {
+    background: sandybrown;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box
+}
+
+footer {
+    background-color: gray;
+    height: 70px;
+    position: relative;
+}
+
+#botonInfo {
+    width: 150px;
+    height: 50px;
+    background-color: #ffeeff;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+
+#botonInfo:hover {
+    background-color: bisque;
+}
+
+#botonInfo p {
+    text-align: center;
+}
+
+#CambiarIdioma {
+    width: 60px;
+    height: 50px;
+    background-color: #ffeeff;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+#CambiarIdioma:hover {
+    background-color: bisque;
+}
+
+#CambiarIdioma p {
+    text-align: center;
+}
+
+#imagel {
+    width: 150px;
+}
+
+.carousel-control-next {
+    opacity: 0.4;
+    background-color: black;
+    height: 200px;
+    width: 50px;
+    margin-top: 75px;
+}
+
+.carousel-control-next:hover {
+    opacity: 0.75;
+}
+
+.carousel-control-prev {
+    opacity: 0.4;
+    background-color: black;
+    height: 200px;
+    width: 50px;
+    margin-top: 75px;
+}
+
+.carousel-control-prev:hover {
+    opacity: 0.75;
+}
+
+.more {
+    display: none;
+}
+
+.myBtn {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.myBtn:hover {
+    background-color: #dddddd;
+}

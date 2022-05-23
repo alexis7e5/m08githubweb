@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina principal</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body style="min-width: 750px;">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Página principal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Más sitios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Barcelona.html">Barcelona</a>
+                        <a class="dropdown-item" href="Madrid.html">Madrid</a>
+                        <a class="dropdown-item" href="Sevilla.html">Sevilla</a>
+                        <a class="dropdown-item" href="PalmaMallorca.html">Palma de Mallorca</a>
+                        <a class="dropdown-item" href="Tenerife.html">Tenerife</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="bd-example" style="width: 700px; text-align: center; margin: auto">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="7000">
+                    <img src="images/slideshow/sagradaFamilia.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="opacity: 0.7; background-color: black;">
+                        <p style="text-align: center;">Sagrada Familia - Barcelona</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="7000">
+                    <img src="images/slideshow/palacioReal.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="opacity: 0.7; background-color: black;">
+                        <p style="text-align: center;">Palacio Real - Madrid</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="7000">
+                    <img src="images/slideshow/catedralSevilla.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="opacity: 0.7; background-color: black;">
+                        <p style="text-align: center;">Catedral de Sevilla - Sevilla</p>
+                    </div>
+                </div>
+				<div class="carousel-item" data-interval="7000">
+                    <img src="images/slideshow/catedralPalma.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="opacity: 0.7; background-color: black;">
+                        <p style="text-align: center;">Catredal de Mallorca - Palma de Mallorca</p>
+                    </div>
+                </div>
+				<div class="carousel-item" data-interval="7000">
+                    <img src="images/slideshow/Tenerife.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="opacity: 0.7; background-color: black;">
+                        <p style="text-align: center;">Tenerife</p>
+                    </div>
+                </div>
+				
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div style="display: block; clear: both;">
+        <h2 class="category-title">Ciudades</h2>
+    </div>
+
+    <div class="post">
+        <img src="images/sagradafamilia.jpeg" alt="Sagrada Familia" class="image1l">
+        <h4 class="float-none-text" style="font-weight: bold">Barcelona</h4>
+        <p>La capital de Cataluña, es la ciudad más visitada de España y la segunda más poblada.
+		Barcelona es tambien una de las ciudades europeas más cosmopolitas y todo un símbolo cultural,
+		financiero, comercial y turístico. Para muchos, Barcelona es la ciudad más atractiva de España
+		y una de las más bonitas.
+        </p>
+        <p> Si aun no has visitado Barcelona, ¿a que esperas para conocer las maravillosas obras de Gaudi?
+		La Sagrada Familia y el parque Güell son una de sus obras más visitadas.
+
+        </p>
+        <form action="Barcelona.html" class="left">
+            <input type="submit" class="post-read-more" value="Leer más"/>
+        </form>
+    </div>
+    <p style="clear: both"></p>
+    <div class="post">
+        <img src="images/palacioreal.png" alt="Palacio Real" class="image1r">
+        <h4 class="float-none-text" style="font-weight: bold">Madrid</h4>
+        <p>La capital de España es la ciudad más poblada del país y esta situada entre las diez ciudades
+			más pobladas de Europa. A la belleza de Madrid, se une su increible oferta cultural con multitud de
+			representaciones teatrales, espectáculos y varios de los museos más importantes del mundo entre los que
+			destacan el Museo del Prado, el Museo Reina Sofia y el Museo Thyssen.
+		</p>
+		<p>
+			Madrid está repleta de edificios arquitectónicos y modernistas, parques, palacios y museos, la capital
+			es una ciudad para perderse en su belleza de dia y de noche.
+        </p>
+
+        <form action="Madrid.html" class="right">
+            <input type="submit" class="post-read-more" value="Leer más"/>
+        </form>
+    </div>
+    <p style="clear: both"></p>
+	
+	    <div class="post">
+        <img src="images/sevilla.jpg" alt="Sevilla" class="image1l">
+        <h4 class="float-none-text" style="font-weight: bold">Sevilla</h4>
+        <p>Sevilla, la capital de Andalucia, una de las mejores ciudades que visitar en España. De un lado y al otro
+			del rio Guadalquivir, rio que atraviesa la ciudad, nos encontramos con color, arte, música y mucha historia.
+			A un lado del rio nos encontramos con el casco antiguo, uno de los más grandes de Europa, que cuenta entre
+			sus monumentos más importantes a la Catedral de Sevilla y su torre campanario conocida como la Giralda,
+			el Real Alcázar y el Archivo de Indias, todos ellos Patrimonio de la Humanidad.
+        </p>
+		<p>No te faltarán razones para pasar unos días en Sevilla.
+		</p>
+        <form action="Sevilla.html" class="left">
+            <input type="submit" class="post-read-more" value="Leer más"/>
+        </form>
+    </div>
+	
+	<p style="clear: both"></p>
+    <div class="post">
+        <img src="images/Baleares.jpg" alt="Islas Baleares" class="image1r">
+        <h4 class="float-none-text" style="font-weight: bold">Palma de Mallorca</h4>
+        <p>Cuenta con una ciudad moderna y vibrante, llena de historia, cultura, diversión y con una gastronomía de primer nivel.
+			La variedad de playas es enorme; encontrarás calas de roca típicas del Mediterráneo así como enormes playas de
+			arena blanca y agua turquesa cristalina que no tienen nada que envidar a las del caribe. Pero esto no es todo,
+			la Sierra de Tramontana que recorre toda la costa noroeste, dota a Mallorca de un paisaje sobrecogedor en el
+			que pequeños pueblos construidos enteramente con marés completan la escenografía de una isla de ensueño.
+        </p>
+        <form action="PalmaMallorca.html" class="right">
+            <input type="submit" class="post-read-more" value="Leer más"/>
+        </form>
+    </div>
+	
+	<p style="clear: both"></p>
+	
+	    <div class="post">
+        <img src="images/Tenerife.jpg" alt="Tenerife" class="image1l">
+        <h4 class="float-none-text" style="font-weight: bold">Tenerife</h4>
+        <p>La isla de mayor tamaño del archipiélago canario y la más poblada de España, es también la que alberga el pico más
+			alto del país: el Teide (3.718 m).
+			Y por si esto no fuera suficiente, Tenerife es un destino idóneo para el avistamiento de ballenas ya que se pueden
+			observar hasta 26 especies de cetáceos que incluyen: delfines, orcas e incluso ballenas azules. La UNESCO ha sabido
+			reconocer la grandeza de la isla otorgando la categoría de Patrimonio de la Humanidad al casco histórico de La Laguna,
+			de estilo colonial, así como al Parque Nacional del Teide.
+        </p>
+        <form action="Tenerife.html" class="left">
+            <input type="submit" class="post-read-more" value="Leer más"/>
+        </form>
+    </div>
+	<p style="clear: both"></p>
+
+    <div style="display: block">
+        <h2 class="category-title">Monumentos importantes</h2>
+		<p>Además de mostraros estas cinco ciudades españolas, las cuales son las más visitadas por los turistas, hemos hecho un pequeño
+		homenaje a monumentos importantes que deberias tener en cuenta en tus viajes por el mundo.
+        </p>
+    </div>
+	<p style="clear: both"></p>
+
+    <div class="post">
+        <img src="images/coliseo.jpeg" alt="Coliseo" class="image1r">
+        <h4 class="float-none-text" style="font-weight: bold">Coliseo Romano</h4>
+        <p>Una maravilla arquitectonica del mundo moderno, a pesar de haber sido usada para diferentes fines a partir de la Edad Media, su
+		 estructura majestuosa no ha podido ser despojada. A pesar de que su estado de conservación no es precisamente excelente, sus restos
+		 nos permiten soñar e imaginar cómo debió ser en su máximo esplendor.
+		 El anfiteatro, declarado Patrimonio de la Humanidad por la Unesco, era escenario de grandes acontecimientos tales como luchas de animales
+		 y de gladiadores, representaciones teatrales e incluso, en alguna ocasión, batallas navales, conocidas como naumaquias.
+		 Este momumento emblemático se encuentra en Roma, la capital italina.
+        </p>
+    </div>
+	
+	<p style="clear: both"></p>
+	
+	<div class="post">
+        <img src="images/BigBen.png" alt="Big Ben" class="image1l">
+        <h4 class="float-none-text" style="font-weight: bold">Big Ben</h4>
+        <p>Monumento contruido tras el incendio de Londres, el cual afecto seriamente al Palacio de Westminster, tiene una altura de 96,3 metros y
+		 tiene una base de 225 metros. El Big Ben es la torre más representativa de la ciudad de Londres y es poseedora de uno de los relojes mecánicos
+		 más grandes del mundo, el cual es conocido por su fiabilidad, ya que pocas veces ha dejado de funcionar.
+		 Aunque generalmente cuando hablamos del Big Ben nos referimos a la Torre del Reloj del edificio del Parlamento de Londres, esta denominación no
+		 es del todo exacta, ya que el Big Ben realmente es una enorme campana de 14 toneladas que se encuentra en el interior de la torre.
+        </p>
+    </div>
+	<p style="clear: both"></p>
+
+    <div class="post">
+        <img src="images/fontanaDiTrevi.png" alt="fontanaDiTrevi" class="image1r">
+        <h4 class="float-none-text" style="font-weight: bold">Fontana di Trevi</h4>
+        <p>La Fontana di Trevi es la fuente más monumental de Roma y una de las fuentes más bonitas del mundo. No solo por su tamaño o por su diseño,
+		sino también por su energía, tan pronto llegas allí es capaz de inundarte con ella hasta la médula. Construida en el siglo XVIII por un hombre
+		casi desconocido, llamado Nicola Salvi, que sorprendió a todos con este diseño asombroso. Esta fuente tiene un mito, este mito, nacido en la pelicula "Tres
+		monedas en la fuente", dice que si arrojas una moneda, volverás a Roma, si arrojas dos monedas, encontrarás el amor con una atractiva italiana y si arrojas
+		tres monedas, te casarás con la persona que conociste.
+        </p>
+    </div>
+	<p style="clear: both"></p>
+	
+	<div class="post">
+        <img src="images/TajMahal.png" alt="Taj Mahal" class="image1l">
+        <h4 class="float-none-text" style="font-weight: bold">Taj Mahal</h4>
+        <p>El Taj Mahal está ubicado en las cercanías de la ciudad de Agra, en el estado de Uttar Pradesh, India, y fue construido en el siglo XVII.
+		Se encuentra situado a orillas del río Yamuna, y fue encargado por orden del emperador musulmán Shah Jahan de la dinastía mongola. El fascinante complejo
+		se erigió en honor de su esposa predilecta, Arjumand Bano Begum que falleció en el parto al dar a luz a su decimocuarta hija. Se estima que su construcción
+		necesitó el esfuerzo de unos 20000 obreros y más de 1000 elefantes. Su arquitectura está basada en los estilos persa, islámico e indio. Forma parte de las 7
+		Maravillas del Mundo desde el año 2007. El Taj Mahal es eso: poesía hecha arte, un canto al amor, una obra sublime que sólo un alma enamorada sería
+		capaz de ofrecer al mundo.
+        </p>
+    </div>	
+	<p style="clear: both"></p>
+
+    <div class="post">
+        <img src="images/eiffel.jpeg" alt="TorreEiffel" class="image1r">
+        <h4 class="float-none-text" style="font-weight: bold">Torre Eiffel</h4>
+        <p>Construida en el eje de la explanada de Champs de Mars en París por Gustave Eiffel, la Torre Eiffel es el monumento más famoso de Paris y símbolo de la capital francesa.
+		Es uno de los monumentos preferidos de Europa junto al Big Ben. Apodada “La dame de fer” (la dama de hierro) este emblemático monumento ostentó el titulo de la estructura hecha
+		por el hombre más alta del mundo durante 41 años, hasta que el edificio Chrysler fue construido en Nueva York. La Torre Eiffel es el punto más alto de Francia y a ella se puede subir,
+		bien en ascensor o bien subiendo los 1665 escalones de los que consta.
+        </p>
+    </div>
+</main>
+
+<footer style="padding-top: 8px;">
+    <div style="float: right; color: white; margin-top: 8px; margin-right: 10px; width: 230px; text-align: center;">Página web desarrollada por Jose Marreros y Alexis Navas</div>
+    <nav style="width: 145px; margin-left: 10px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="contact.html">Contáctanos</a>
+    </nav>
+</footer>
+
+</body>
+</html>
